@@ -1,0 +1,73 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+section {
+    background-color: #FCFAF1;
+    width: 100%;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+
+@media (max-width: 1024px) {
+    img .img-about {
+        width: 100%;
+        margin: auto;
+    }
+
+    .section-1 {
+        margin-bottom: 0;
+    }
+
+    .section-2 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-about {
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    .section-1 {
+        padding-bottom: 0;
+    }
+
+    .section-1,
+    .section-2 {
+        width: 100%;
+    }
+
+    .section-1 {
+        align-items: center;
+    }
+
+    .img-about {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 0;
+    }
+
+    .section-2 {
+        padding: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
