@@ -1,143 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dessert by Salaras</title>
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- style adhe -->
+    <link rel="stylesheet" href="nav-styles.css" />
+    <!-- style khairin -->
+    <link rel="stylesheet" href="about-style.css" />
+    <!-- style friska -->
+    <link rel="stylesheet" href="testi-style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Navbar dengan Bootstrap</title>
-  <!-- bootsrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700&display=swap"
-    rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- style adhe -->
-  <link rel="stylesheet" href="nav-styles.css">
-  <!-- style khairin -->
-  <link rel="stylesheet" href="about-style.css">  
-</head>
+  <body id="home">
+    <!-- Navbar dan home -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">Logo</a>
+      </div>
+    </nav>
 
-<body>
-  <!-- Navbar dan home -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
     <div class="container">
-      <a class="navbar-brand" href="#">Logo</a>
+      <hr class="navbar-divider" />
     </div>
-  </nav>
 
-  <div class="container">
-    <hr class="navbar-divider" />
-  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container">
+        <!-- <div class="row"> -->
+        <div class="col-md-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="col-md-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <img class="sosmed-logo" src="image/shopee_logo.png" href="#" />
+            </li>
+            <li class="nav-item">
+              <img class="sosmed-logo" src="image/instagram_logo.png" href="#" />
+            </li>
+            <li class="nav-item">
+              <img class="sosmed-logo" src="image/whatsapp_logo.png" href="#" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
-      <!-- <div class="row"> -->
-      <div class="col-md-auto">
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimoni</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-md-auto">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <img class="sosmed-logo" src="image/shopee_logo.png" href="#" />
-          </li>
-          <li class="nav-item">
-            <img class="sosmed-logo" src="image/instagram_logo.png" href="#" />
-          </li>
-          <li class="nav-item">
-            <img class="sosmed-logo" src="image/whatsapp_logo.png" href="#" />
-          </li>
-        </ul>
-      </div>
-    </div>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6" style="padding-top: 120px;">
-        <h1>Sweet Dessert</h1>
-        <p>Selamat datang di dunia rasa yang menggoda, di mana setiap gigitan adalah petualangan untuk merasakan
-          kelezatan yang tak terlupakan. Kami membawa Anda ke perjalanan melalui aneka dessert yang siap memanjakan
-          lidah Anda dengan setiap sentuhan kesempurnaan.
-          Dibuat dengan cinta dan bahan-bahan terbaik, setiap hidangan dijamin memukau dengan citarasa yang autentik dan
-          tekstur yang memanjakan. Jadikan setiap momen istimewa dengan sentuhan cita rasa dari koleksi dessert kami.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <img src="image/Foto_produk.png" alt="Deskripsi Gambar">
-      </div>
-    </div>
-  </div>
-   <!-- Navbar dan home end-->
-
-  <!-- about mkhairin - untuk css nya style-about -->
-  <section>
-    <div class="container-about col-10 mx-auto">
       <div class="row">
-        <div class="section-1 col-md-6 p-5 mb-0">
-          <img src="image/Frame 2.svg" class="img-fluid img-about mx-auto" alt="image" style="width: 400px;">
-        </div>
-        <div class="section-2 col-md-6 p-5 mt-5">
-          <h1 class="lobster-regular">About</h1>
-          <p class="poppins-regular">
-            "Jelajahi dunia rasa yang memikat dengan kreasiku yang manis dan lezat! Dari hobi memasak yang berkembang
-            menjadi obsesi akan cita rasa, hadirlah sebuah perjalanan gastronomi yang menggoda. Sambutlah kelezatan dari
-            setiap gigitan, diolah dengan cinta dan keahlian, untuk menciptakan pengalaman manis yang tak terlupakan.
-            Mari
-            nikmati dessert pilihan dari kami, karena di balik setiap kreasi tersimpan cerita dan dedikasi. Segera
-            merapat
-            dan mari bersama-sama menikmati keindahan rasa dalam setiap sajian!"
+        <div class="col-md-6" style="padding-top: 120px">
+          <h1>Sweet Dessert</h1>
+          <p>
+            Selamat datang di dunia rasa yang menggoda, di mana setiap gigitan adalah petualangan untuk merasakan kelezatan yang tak terlupakan. Kami membawa Anda ke perjalanan melalui aneka dessert yang siap memanjakan lidah Anda dengan
+            setiap sentuhan kesempurnaan. Dibuat dengan cinta dan bahan-bahan terbaik, setiap hidangan dijamin memukau dengan citarasa yang autentik dan tekstur yang memanjakan. Jadikan setiap momen istimewa dengan sentuhan cita rasa dari
+            koleksi dessert kami.
           </p>
-
-          <button type="button" class="btn btn-dark rounded-0 lobster-regular px-5">About Us</button>
+        </div>
+        <div class="col-md-6">
+          <img src="image/Foto_produk.png" alt="Deskripsi Gambar" />
         </div>
       </div>
     </div>
-  </section>
-  <!-- About end -->
+    <!-- Navbar dan home end-->
 
+    <!-- About mkhairin - untuk css nya style-about -->
+    <section id="about">
+      <div class="container-about col-10 mx-auto">
+        <div class="row">
+          <div class="section-1 col-md-6 p-5 mb-0">
+            <img src="image/Frame 2.svg" class="img-fluid img-about mx-auto" alt="image" style="width: 400px" />
+          </div>
+          <div class="section-2 col-md-6 p-5 mt-5">
+            <h1 class="lobster-regular">About</h1>
+            <p class="poppins-regular">
+              "Jelajahi dunia rasa yang memikat dengan kreasiku yang manis dan lezat! Dari hobi memasak yang berkembang menjadi obsesi akan cita rasa, hadirlah sebuah perjalanan gastronomi yang menggoda. Sambutlah kelezatan dari setiap
+              gigitan, diolah dengan cinta dan keahlian, untuk menciptakan pengalaman manis yang tak terlupakan. Mari nikmati dessert pilihan dari kami, karena di balik setiap kreasi tersimpan cerita dan dedikasi. Segera merapat dan mari
+              bersama-sama menikmati keindahan rasa dalam setiap sajian!"
+            </p>
 
+            <button type="button" class="btn btn-dark rounded-0 lobster-regular px-5">About Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end -->
 
+    <!-- Product -->
+    <!-- Product End -->
 
+    <!-- Testimoni -->
+    <section id="testimoni">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-testi-judul">
+            <h1 class="testi-judul lobster-regular">Apa Iyaaa... <br />Seenak Itu?</h1>
+            <p class="poppins-thin-italic">Berikut adalah review dari konsumen kami</p>
+          </div>
+        </div>
 
+        <div id="carouselExampleSlidesOnly" class="carousel slide testimoni-container" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Kartu Testimoni 1-->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6 kartu-testimoni">
+                  <div class="card mb-3" style="max-width: 500px">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="image/testi-1.jpg" class="img-fluid rounded-start" alt="..." />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title lobster-regular fs-1">Natasya</h5>
+                          <p class="card-text poppins-medium">
+                            "Suka sama perpaduan cream dan strawberry nya, nyegerin.
+                            <br />
+                            <br />Pokoknya bintang 5 deh!"
+                          </p>
+                          <p class="card-text">
+                            <small class="text-body-secondary">
+                              <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="col-md-6 img-testi">
+                  <img src="image/img-1.png" alt="" style="width: 700px" />
+                </div>
+              </div>
+            </div>
 
+            <!-- Kartu Testimoni 2-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 kartu-testimoni">
+                  <div class="card mb-3" style="max-width: 500px">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="image/testi-1.jpg" class="img-fluid rounded-start" alt="..." />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title lobster-regular fs-1">Raisa</h5>
+                          <p class="card-text poppins-medium">
+                            "Peach gum nya enak banget!!!.
+                            <br />
+                            <br />Pelayanannya ramah, pengirimannya cepet banget^^"
+                          </p>
+                          <p class="card-text">
+                            <small class="text-body-secondary">
+                              <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="col-md-6 img-testi">
+                  <img src="image/img-2.png" alt="" style="width: 700px" />
+                </div>
+              </div>
+            </div>
 
+            <!-- Kartu Testimoni 3-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 kartu-testimoni">
+                  <div class="card mb-3" style="max-width: 500px">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="image/testi-1.jpg" class="img-fluid rounded-start" alt="..." />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title lobster-regular fs-1">Salsabilla</h5>
+                          <p class="card-text poppins-medium">
+                            "Suka banget sama mochinya, lembut, manis.
+                            <br />
+                            <br />Rugi banget sih kalo gak nyobain."
+                          </p>
+                          <p class="card-text">
+                            <small class="text-body-secondary">
+                              <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="col-md-6 img-testi">
+                  <img src="image/img-3.png" alt="" style="width: 700px" />
+                </div>
+              </div>
+            </div>
 
+            <!-- Kartu Testimoni 4-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 kartu-testimoni">
+                  <div class="card mb-3" style="max-width: 500px">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="image/testi-1.jpg" class="img-fluid rounded-start" alt="..." />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title lobster-regular fs-1">Afina</h5>
+                          <p class="card-text poppins-medium">
+                            "Bakal jadi ichigo daifuku favorit aku sih ini^^
+                            <br />
+                            <br />Pokoknya harus order lagi"
+                          </p>
+                          <p class="card-text">
+                            <small class="text-body-secondary">
+                              <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="col-md-6 img-testi">
+                  <img src="image/img-4.png" alt="" style="width: 700px" />
+                </div>
+              </div>
+            </div>
 
+            <!-- Kartu Testimoni 5-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 kartu-testimoni">
+                  <div class="card mb-3" style="max-width: 500px">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="image/testi-1.jpg" class="img-fluid rounded-start" alt="..." />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title lobster-regular fs-1">Dhian</h5>
+                          <p class="card-text poppins-medium">
+                            "Gak rugi sih langsung beli 3, lebih enak dari toko sebelah.
+                            <br />
+                            <br />So far worth it to buy guys!"
+                          </p>
+                          <p class="card-text">
+                            <small class="text-body-secondary">
+                              <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="col-md-6 img-testi">
+                  <img src="image/img-5.png" alt="" style="width: 700px" />
+                </div>
+              </div>
+            </div>
 
+            <!-- Kartu Testimoni 6-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 kartu-testimoni">
+                  <div class="card mb-3" style="max-width: 500px">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="image/testi-1.jpg" class="img-fluid rounded-start" alt="..." />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title lobster-regular fs-1">Zefanka</h5>
+                          <p class="card-text poppins-medium">
+                            "Enak banget browniesnya, nyoklat banget tapi ga kemanisan.
+                            <br />
+                            <br />Mau order lagi buat besok."
+                          </p>
+                          <p class="card-text">
+                            <small class="text-body-secondary">
+                              <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+                              <i class="bi bi-star-fill text-warning"></i>
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
+                <div class="col-md-6 img-testi">
+                  <img src="image/img-6.png" alt="" style="width: 700px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Testimoni End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
