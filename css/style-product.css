@@ -2,28 +2,31 @@
   background-color: #f5f3e7;
   padding-top: 35px;
   padding-bottom: 50px;
-  border-radius: 60px;
+  /* border-radius: 60px; */
   padding-left: 135px;
   padding-right: 135px;
 }
 
-h1 {
+.judul-product {
   text-align: center;
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding-bottom: 35px;
+  font-size: 4rem;
 }
 
-.card {
+.c-product {
   display: grid;
   margin: 2px;
+  height: 250px;
 }
 
-img {
+.img-product {
   width: 150px;
   height: 170px;
   padding: 2px;
+  max-width: 100%;
 }
 
 a {
@@ -36,7 +39,7 @@ a {
   cursor: pointer;
 }
 
-.card-text {
+.card-text-product {
   font-family: "Tinos", serif;
   font-weight: 400;
   font-style: italic;

@@ -6,11 +6,12 @@ body {
   background: linear-gradient(to right, #f5e2e4, #e7b8e1);
 }
 
-h1 {
+.judul-home {
   font-family: "Lobster", cursive;
+  font-size: 4rem;
 }
 
-p {
+.p-home {
   font-family: "poppins", sans-serif;
 }
 
