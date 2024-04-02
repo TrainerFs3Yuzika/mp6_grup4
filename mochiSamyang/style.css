@@ -1,0 +1,128 @@
+.logochef {
+  width: 15%;
+}
+
+.container-fluid {
+  background: linear-gradient(to right, #f5e2e4, #e7b8e1);
+  padding-top: 5px;
+  padding-bottom: 5pxpx;
+  font-family: "Lobster", sans-serif;
+  font-style: normal;
+}
+
+.col-md-9 {
+  padding-top: 15px;
+}
+
+.navbar-divider {
+  align-items: flex-start;
+  width: 100%;
+  height: 6px; /* Ketebalan garis */
+  background-color: pink; /* Warna garis */
+  margin: 10px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Bayangan garis */
+}
+
+.nav {
+  margin-left: 82px;
+}
+
+a.nav-link {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: small;
+  font-style: normal;
+}
+
+li a .logo {
+  margin: 3px;
+  width: 30px;
+}
+
+.detailProduct {
+  padding-bottom: 40px;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-left: 50px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr {
+  align-items: flex-start;
+  width: 10%;
+  height: 6px; /* Ketebalan garis */
+  background-color: pink; /* Warna garis */
+  margin: 10px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Bayangan garis */
+}
+
+.col-4 {
+  padding-top: 30px;
+}
+
+.moci {
+  width: 70%;
+  border-radius: 20px;
+  margin-left: 90px;
+}
+
+.col-6 {
+  padding-top: 30px;
+}
+
+h3 {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.recomandation {
+  background-color: #f5f3e7;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  border-radius: 60px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.recomandation h1 {
+  text-align: center;
+}
+
+.card {
+  display: grid;
+  width: 160px;
+  height: 170px;
+}
+
+.card .card-img-top {
+  width: 158px;
+  height: 170px;
+  padding: 2px;
+}
+
+.card:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card-text {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
