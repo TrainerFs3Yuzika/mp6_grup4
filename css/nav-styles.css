@@ -2,7 +2,7 @@
   border-top: 3px solid rgba(0, 0, 0, 0.1);
 }
 
-body {
+.bg {
   background: linear-gradient(to right, #f5e2e4, #e7b8e1);
   padding-top: 200px;
 }
@@ -39,4 +39,14 @@ body {
 
 .navbar-home .navbar {
   padding-bottom: 0px;
+}
+
+/* style padding */
+#about{
+  padding-top: 5rem;
+}
+
+
+#testimoni{
+  padding-top: 8rem;
 }
