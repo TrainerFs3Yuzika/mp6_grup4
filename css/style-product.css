@@ -3,8 +3,8 @@
   padding-top: 35px;
   padding-bottom: 50px;
   /* border-radius: 60px; */
-  padding-left: 135px;
-  padding-right: 135px;
+  /* padding-left: 135px;
+  padding-right: 135px; */
 }
 
 .judul-product {
@@ -18,14 +18,16 @@
 
 .c-product {
   display: grid;
-  margin: 2px;
-  height: 250px;
+  margin-right: 10px;
+  width: 170px;
+  height: 270px;
+  border-radius: 5px;
 }
 
 .img-product {
-  width: 150px;
+  width: 170px;
   height: 170px;
-  padding: 2px;
+  padding: 0px;
   max-width: 100%;
 }
 
@@ -39,7 +41,7 @@ a {
   cursor: pointer;
 }
 
-.card-text-product {
+.card-text {
   font-family: "Tinos", serif;
   font-weight: 400;
   font-style: italic;
@@ -47,3 +49,14 @@ a {
   margin-bottom: 10px;
   font-weight: bold;
 }
+
+.harga{
+  font-family: "Tinos", serif;
+  font-weight: 400;
+}
+
+
+
+
+
+

@@ -132,3 +132,8 @@ p {
   margin-bottom: 10px;
   font-weight: bold;
 }
+
+.enlarge {
+  width: 200px; 
+  transition: width 0.5s; 
+}
