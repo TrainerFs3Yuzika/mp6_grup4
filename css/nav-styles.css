@@ -4,6 +4,7 @@
 
 body {
   background: linear-gradient(to right, #f5e2e4, #e7b8e1);
+  padding-top: 200px;
 }
 
 .judul-home {
@@ -18,4 +19,24 @@ body {
 .navbar-nav .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+}
+
+.logochef {
+  width: 10%;
+}
+
+.container {
+  font-family: "lobster", cursive;
+}
+
+.navbar-home {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(to right, #f5e2e4, #e7b8e1);
+}
+
+.navbar-home .navbar {
+  padding-bottom: 0px;
 }
