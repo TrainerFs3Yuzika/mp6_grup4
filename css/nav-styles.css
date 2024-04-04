@@ -22,7 +22,7 @@
 }
 
 .logochef {
-  width: 10%;
+  width: 7%;
 }
 
 .container {
@@ -38,15 +38,20 @@
 }
 
 .navbar-home .navbar {
-  padding-bottom: 0px;
+  padding: 0px;
+}
+
+.navbar-divider {
+  margin: 0px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: pink; */
 }
 
 /* style padding */
-#about{
-  padding-top: 5rem;
+#about {
+  padding-top: 3rem;
 }
 
-
-#testimoni{
-  padding-top: 8rem;
+#testimoni {
+  padding-top: 6rem;
 }
