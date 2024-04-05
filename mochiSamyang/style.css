@@ -131,3 +131,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
+
+.fav {
+  transition: background-color 0.5s, color 0.5s;
+}
