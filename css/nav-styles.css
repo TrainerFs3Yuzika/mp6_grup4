@@ -42,8 +42,7 @@
 }
 
 li a .logo {
-  margin-left: 3px;
-  margin-right: 3px;
+  margin: 0;
   width: 20px;
 }
 
